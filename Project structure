@@ -1,0 +1,21 @@
+greencart-logistics/
+├── backend/                 # All backend files
+│   ├── models/              # Mongoose schemas
+│   ├── routes/              # API endpoints
+│   ├── middleware/          # Auth middleware
+│   ├── data/                # Sample JSON data
+│   ├── server.js            # Main server
+│   ├── package.json
+│   └── .env                 # Secrets (gitignore)
+├── frontend/                # All frontend files
+│   ├── src/
+│   │   ├── components/      # Reusable UI (Login, Dashboard, etc.)
+│   │   ├── pages/           # CRUD pages (DriversPage, etc.)
+│   │   ├── services/        # API calls (api.ts)
+│   │   ├── types/           # TypeScript interfaces
+│   │   ├── App.tsx          # Main app
+│   │   └── index.tsx        # Entry point
+│   ├── package.json
+│   └── .env                 # API URL
+├── .gitignore               # Global ignore
+└── README.md                # Documentation (see end of document)
